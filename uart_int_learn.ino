@@ -18,6 +18,7 @@ UBRR0L = BAUD_PRESCALE; // Load lower 8-bits of the baud rate value into the low
 
 int cnt = 0;
 char buf[8];
+int rxFlag = 0;
 
 void setup() {
   // put your setup code here, to run once:
